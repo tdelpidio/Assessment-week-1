@@ -11,7 +11,7 @@
 
 //CODE HERE
 
-gitDefinition = "Git is a tool used for code management that allows individuals and teams to track changes to code projects, prevents loss of progress and keeps a history of the long project in snapshots."
+let gitDefinition = "Git is a tool used for code management that allows individuals and teams to track changes to code projects, prevents loss of progress and keeps a history of the long project in snapshots."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -21,7 +21,7 @@ gitDefinition = "Git is a tool used for code management that allows individuals 
 
 //CODE HERE
 
-gitHubDefinition = "Github is a cloud-based Git repository that allows developers store, track, share and manage their projects."
+let gitHubDefinition = "Github is a cloud-based Git repository that allows developers store, track, share and manage their projects."
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -40,7 +40,10 @@ gitHubDefinition = "Github is a cloud-based Git repository that allows developer
 
 //CODE HERE
 
-init = ("initializes a new Git repoistory", "git init")
+let init = {
+    description: "initializes a new Git repoistory",
+    code:"git init",
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -50,7 +53,10 @@ init = ("initializes a new Git repoistory", "git init")
 
 //CODE HERE
 
-clone = ("copies a repository", "git clone URL_GOES_HERE")
+let clone = {
+    description: "copies a repository", 
+    code: "git clone <URL>,
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -60,7 +66,10 @@ clone = ("copies a repository", "git clone URL_GOES_HERE")
 
 //CODE HERE
 
-status = ("Displays the state of the directory", "git status")
+let status = {
+    description: "Displays the state of the directory",
+    code: "git status",
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -70,7 +79,10 @@ status = ("Displays the state of the directory", "git status")
 
 //CODE HERE
 
-add = ("adds file to be tracked", "git add .")
+let add = {
+    description: "adds file to be tracked", 
+    code: "git add ."
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -80,7 +92,10 @@ add = ("adds file to be tracked", "git add .")
 
 //CODE HERE
 
-commit = ("creates a snapshot of the files being tracking", "git commit")
+let commit = {
+    description: "creates a snapshot of the files being tracking", 
+    code: "git commit",
+}
 
 
 //////////////////PROBLEM 8////////////////////
@@ -91,4 +106,7 @@ commit = ("creates a snapshot of the files being tracking", "git commit")
 
 //CODE HERE
 
-push = ("uploads repository to a remote repository", "git push")
+let push = {
+    description: "uploads repository to a remote repository", 
+    code: "git push"
+}
