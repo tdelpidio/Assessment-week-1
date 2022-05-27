@@ -15,4 +15,6 @@ reader.question("What password would you like to validate?", function(input){
     } else if(input.length >= 10){
         console.log("Password Successful!")
     }
+    
+    reader.close()
 })
