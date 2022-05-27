@@ -48,4 +48,16 @@ middleNums = numbers.slice(1, 4);
 
 // CODE HERE
 
+function bigOrSmall(arr) {
+  const answers = [];
+  for(let i = 0; i < arr.length; i++) {
+    if (arr[i] <= 100) {
+      answers.push('small');
+    } else {
+      answers.push('big');
+    }
+  }
+  return answers
+}
 
+console.log(bigOrSmall([0, 105, 100]))
