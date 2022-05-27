@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+gitDefinition = "Git is a tool used for code management that allows individuals and teams to track changes to code projects, prevents loss of progress and keeps a history of the long project in snapshots."
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+gitHubDefinition = "Github is a cloud-based Git repository that allows developers store, track, share and manage their projects."
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -27,6 +31,7 @@
     string of the actual command (what you type into your terminal).
 */
 
+
 //////////////////PROBLEM 3////////////////////
 /*
     Create an object called 'init' with 'description' and 'code' properties 
@@ -34,6 +39,8 @@
 */
 
 //CODE HERE
+
+init = ("initializes a new Git repoistory", "git init")
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -43,6 +50,8 @@
 
 //CODE HERE
 
+clone = ("copies a repository", "git clone URL_GOES_HERE")
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,6 +59,8 @@
 */
 
 //CODE HERE
+
+status = ("Displays the state of the directory", "git status")
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -59,6 +70,8 @@
 
 //CODE HERE
 
+add = ("adds file to be tracked", "git add .")
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,6 +79,8 @@
 */
 
 //CODE HERE
+
+commit = ("creates a snapshot of the files being tracking", "git commit")
 
 
 //////////////////PROBLEM 8////////////////////
@@ -75,3 +90,5 @@
 */
 
 //CODE HERE
+
+push = ("uploads repository to a remote repository", "git push")
